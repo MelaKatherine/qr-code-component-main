@@ -90,3 +90,14 @@ img {
   line-height: 1.5;
   color: var(--slate-500);
 }
+
+@media (min-width: 1024px) {
+  .qr-card {
+    width: 360px;
+    padding: 18px 18px 30px;
+  }
+
+  .qr-card h1 {
+    font-size: 1.5rem;
+  }
+}
